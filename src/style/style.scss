@@ -1,0 +1,46 @@
+@import "./reset.scss";
+
+$gray: #c6caca;
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #bcbfbf;
+}
+
+.phone {
+  width: 480px;
+  height: 90%;
+  background-color: $gray;
+  border-radius: 20px;
+  box-shadow: 5px 10px 10px  rgba($color: #000000, $alpha: 0.5);
+}
+
+.header {
+  padding: 50px 15px 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  .header__title {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}
+
+.total {
+  background-color: black;
+  padding: 30px 15px;
+  color: $gray;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-weight: bold;
+  gap: 5px;
+  .total__price {
+    font-size: 22px;
+  }
+  .total__subtitle {
+    font-size: 14px;
+  }
+}
