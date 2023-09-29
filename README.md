@@ -5,7 +5,7 @@
 	
 <ul>
 	<li>
-		<a href="https://yonghun16.github.io/education_app_ui/"> Clone 보러가기 </a>
+		<a href="https://yonghun16.github.io/fashion_store/"> Clone 보러가기 </a>
 	</li>
 	<li>
 		1page
