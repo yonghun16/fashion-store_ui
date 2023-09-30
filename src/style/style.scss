@@ -1,16 +1,19 @@
 @import "./reset.scss";
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans:wght@400;600&display=swap');
 
 $gray: #c6caca;
 $grownBlack: #1F1414;
 $borderline: 4px solid $grownBlack;
 
 body {
+  font-size: 16px;
+  color: $grownBlack;
+  font-family: 'Archivo Black', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background-color: #bcbfbf;
-  color: $grownBlack;
 }
 
 .phone {
@@ -25,10 +28,27 @@ body {
   padding: 50px 15px 20px 15px;
   display: flex;
   justify-content: space-between;
+  span {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:first-child {
+      justify-content: flex-start;
+    }
+    &:last-child {
+      justify-content: flex-end;
+    }
+  }
   .header__title {
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+  }
+  .header__btn {
+    i {
+      margin-right: 10px;
+    }
   }
 }
 
@@ -76,10 +96,13 @@ body {
 
         .item__title {
           font-size: 43px;
+          text-transform: uppercase;
         }
 
         .item__subtitle {
-          font-size: 14px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: bold;
+          font-size: 16px;
         }
 
         .item__total-price {
@@ -87,7 +110,9 @@ body {
         }
 
         .item__piece-price {
-          font-size: 18px;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 20px;
+          font-weight: bold;
         }
       }
     }
@@ -100,10 +125,12 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, 125px);
   .spec {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
     padding: 25px;
     display: flex;
-    font-size: 20px;
-    font-weight: bold;
     flex-direction: column;
     justify-content: center;
     &:last-child {

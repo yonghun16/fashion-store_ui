@@ -9,12 +9,16 @@ html(lang="ko")
     body 
         .phone
             header.header
-                span.header__btn 👈
-                h1.header__title My Cart 
-                span.header__btn 🛒
+                span.header__btn
+                    i(class="fa-solid fa-chevron-left")
+                    i(class="fa-solid fa-bars")
+                span 
+                    h1.header__title My Cart 
+                span.header__btn
+                    i(class="fa-solid fa-cart-shopping")
             section.total
                 span.total__price $3550
-                span.total__subtitle based on your 5 items.
+                span.total__subtitle based on your 5 items
             section.items
                 artical.item
                     div.item__info
@@ -48,4 +52,6 @@ html(lang="ko")
                             .spec__title QT
                             .spec__value 1 pcs
                     img(src="https://source.unsplash.com/random" class="item__photo")
+
+        script(src="https://kit.fontawesome.com/7489903411.js" crossorigin="anonymous")
 
