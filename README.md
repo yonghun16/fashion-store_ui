@@ -1,11 +1,11 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=4078c0&height=180&section=header&text=패션%20샵%20App%20UI%20-%20Clone&fontSize=45&animation=fadeIn&fontAlignY=38&desc=FrontEnd16&descAlignY=55&descAlign=85)
 
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/yonghun16/fashion_store/main/design.png" width=800px />
+<img src="https://raw.githubusercontent.com/yonghun16/fashion-store_ui/main/design.png" width=800px />
 	
 <ul>
 	<li>
-		<a href="https://yonghun16.github.io/fashion_store/"> Clone 보러가기 </a>
+		<a href="https://yonghun16.github.io/fashion-store_ui/"> Clone 보러가기 </a>
 	</li>
 	<li>
 		Single-page
